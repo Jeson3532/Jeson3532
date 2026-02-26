@@ -1,16 +1,34 @@
-## Hi there 👋
+ 👋 Привет, меня зовут Никита и я Junior Backend-разработчик, а также Junior ML-разработчик на языке Python. 
+ Решаю как обычные CRUD-задачи, так и пишу полноценные fullcycle-проекты. 
+ В свободное время люблю изучать что-то новое и быстро осваиваюсь в новой среде.
+ 
+## 🛠 Технологии, которые я использую:
+| Инструмент       | Badge                                                                                                                    | Описание | Причина                                                                                                                                                                                     |
+|:-----------------|:-------------------------------------------------------------------------------------------------------------------------| :--- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **FastAPI**      | ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)                                 | Современный, быстрый веб-фреймворк для создания API. | Высокая производительность, встроенная асинхронность и автоматическая генерация документации Swagger.                                                                                       |
+| **PostgreSQL**   | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)        | Мощная объектно-реляционная база данных с открытым исходным кодом. | Надежность, поддержка сложных запросов и отличная работа под нагрузкой.                                                                                                                     |
+| **Redis**        | ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)                | Хранилище структур данных в памяти. | Хранит данные в оперативной памяти, что дает скорость O(1) почти для всех операций. (удобно, если нужно перебросить данные из одного сервиса в другой, когда мы находимся на одном сервере) |
+| **SQLAlchemy**   | ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=python&logoColor=white)            | Гибкий инструмент SQL Toolkit и Object Relational Mapper (ORM). | Показал, что удобство и чистоту кода можно объединить с помощью ORM.                                                                                                                        |
+| **Alembic**      | ![Alembic](https://img.shields.io/badge/Alembic-6BA531?style=for-the-badge&logo=python&logoColor=white)                  | Инструмент для миграции баз данных, созданный автором SQLAlchemy. | В целом удобный инструмент для работы с миграциями, также не забываем про `alembic revision --autogenerate`                                                                                 |
+| **aiohttp**      | ![aiohttp](https://img.shields.io/badge/aiohttp-2C5BB4?style=for-the-badge&logo=python&logoColor=white)                  | Асинхронный HTTP клиент/сервер для asyncio. | Незаменим для высокопроизводительных асинхронных запросов и микросервисов при тестировании и интеграции API.                                                                                |
+| **Docker**       | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)                    | Платформа для контейнеризации приложений. | Гарантирует, что фраза "у меня всё работает" будет актуальна и на сервере.                                                                                                                  |
+| **pytest**       | ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)                    | Фреймворк для написания небольших и масштабируемых тестов. | Очень удобная библиотека для написания средних и больших тестов, также понравилась за счет своих фикстур.                                                                                   |
+| **aiogram**      | ![aiogram](https://img.shields.io/badge/aiogram-26A5E4?style=for-the-badge&logo=telegram)                                | Современный асинхронный фреймворк для Telegram Bot API. | Лучший выбор для создания быстрых и отзывчивых чат-ботов на Python и актуальный выбор на ближайшие несколько лет.                                                                           |
+| **scikit-learn** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | Библиотека для машинного обучения и анализа данных. | Содержит в себе всё для классического машинного обучения (линейные модели, метрики, инструменты для предобработки данных и т. д.), также незаменима.                                        |
+| **PyTorch**      | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)                 | Библиотека глубокого обучения с открытым исходным кодом. | Гибкость и скорость при разработке сложных нейросетевых архитектур.                                                                                                                         |
 
-<!--
-**Jeson3532/Jeson3532** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🖇 Вторичный стек:
+🙇‍♂️ Есть инструменты, которые обычно не используешь в своих проектах, но опыт работы с ними либо имеется, либо может понадобиться в дальнейшем. Для меня таким стеком является:
+- **Flask** (*Если нужно быстро написать микро-сервис, обычно использовал на хакатонах*)
+- **php 8.4+ (Laravel | Symfony)** (*Если нужен продуманный SaaS-проект*)
+- **MongoDB** (*Опыт как бы и есть, но вокруг одни реляции, зачем?*)
+- **Apache Airflow** (*Если нужно поставить таску на автоматизированный пайплайн - то это именно то, что нужно*)
+- **RabbitMQ** (*Жду тот самый проект, в котором нужен будет брокер*)
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🕺Soft-скиллы, которые я имею:
+🎓 Я очень коммуникабелен и готов довести дело до конца. За моей спиной множество разных мероприятий, 
+где я представлял проекты разной сложности - от простого телеграмм-бота для индивидуального обучения до полноценного ML-сервиса 
+для предсказания нефтяного загрязнения округа по снимкам со спутника.
+## 📍 Как со мной связаться?
+**📧 EMail:** jeson.jesonov@gmail.com  
+**📱 Telegram:** @txgorax
